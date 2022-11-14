@@ -1,0 +1,11 @@
+<section>
+  <div>
+    <span><%= params[:question] %></span>
+    <em>— You</em>
+  </div>
+  <div class="answer">
+    <span><%= @answer %></span>
+    <em>— Your coach</em>
+  </div>
+  <%= link_to "Ask another question", ask_path %>
+</section>
